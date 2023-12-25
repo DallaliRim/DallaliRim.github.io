@@ -99,3 +99,9 @@ body {
 .nav div.main_list ul li a:hover {
     color: var(--accent-text-color);
 }
+
+.affix {
+    padding: 0;
+    margin: 0;
+    background-color: #1e222f;
+}

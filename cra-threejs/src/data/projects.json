@@ -1,0 +1,144 @@
+[
+    {
+        "title": "Monke",
+        "date": "2023",
+        "description": "Contributed to a team project consisting of creating an engaging typing game. Allows you to test your skills using a variety of settings and stats and have them be available for browsing to logged-in users. Includes a Multiplayer feature that allows you to compete with friends.",
+        "stack": [
+            "JavaScript",
+            "React",
+            "Azure",
+            "C#",
+            "Rust",
+            "MongoDB",
+            "Socket.io"
+        ],
+        "link": "https://themonke.azurewebsites.net/",
+        "repo": "https://gitlab.com/dawson2223/620-w23/s02/team4/monke"
+    },
+    {
+        "title": "PokeDaw",
+        "date": "2022",
+        "description": "Contributed to a team project consisting of a mock mobile application of the Pokemon game. The game includes features such as PokeCenter, Battle, TeamSwap, PC, etc.",
+        "stack": [
+            "Kotlin",
+            "Android Studio"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/Randoe/mobile-project-pokemon"
+    },
+    {
+        "title": "Game Sales",
+        "date": "2022",
+        "description": "Contributed to a team project consisting of a full-stack Mongo Express React Node (MERN) application with a focus on the visualization of a large dataset consisting of global game sales, as well as some of the performance considerations.",
+        "stack": [
+            "JavaScript",
+            "React",
+            "MongoDB",
+            "Render"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/dawson2223/section02/project/team10/520-project-dallali-ganz-vecchiarelli"
+    },
+    {
+        "title": "Robby The Robot",
+        "date": "2022",
+        "description": "Contributed to a team project to create an adaptive learning genetic algorithm called Robby The Robot. Robby is meant to pick up coins on a grid, and only the best results are displayed. A console library provides an interface to start the algorithm work, evaluate Robby's intelligence/fitness, and output the results. A Monogame library is present with a GUI program that can visually display the results of the genetic algorithm's evolution of Robby the robot.",
+        "stack": [
+            "C#",
+            ".NET",
+            "Monogame"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/Dan_Willis/robbytherobot"
+    },
+    {
+        "title": "Smart Home",
+        "date": "2022",
+        "description": "Contributed to a team project that consists of MQTT clients connecting to the HiveMQ broker running on the HiveMQ cloud to publish and subscribe to messages related to the setup sensors (Motion detector, Doorbell, DHT sensors, and Camera). A GUI gets launched upon completing valid information (login) to display sensor data to and from all users running the program.",
+        "stack": [
+            "RaspberryPi",
+            "Java",
+            "Python",
+            "HiveMQ",
+            "JavaFX",
+            "Maven",
+            "Freenove Kit"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/matteorobidoux/mqttclientapp"
+    },
+    {
+        "title": "Piano Simulation",
+        "date": "2022",
+        "description": "Project simulating a Piano, keyboard keys map to the piano keys and allow the user to play the piano, with sound and visual showing the keys being pressed.",
+        "stack": [
+            "C#",
+            ".NET",
+            "Monogame"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/RimDallali/assignment-02-monogame-piano"
+    },
+    {
+        "title": "E-Wallet",
+        "date": "2022",
+        "description": "E-Wallet keeps track of Debit/Credit cards, cash, notes with a payment feature. Implemented multi-threading",
+        "stack": [
+            "Java",
+            "SQL",
+            "JavaFX",
+            "Maven"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/RimDallali/java4-project-2-e-wallet-maven"
+    },
+    {
+        "title": "Forum Web Application",
+        "date": "2022",
+        "description": "Contributed to a team project by designing the database structure and implementing the post creation along with their features such as like, comment, edit, post, delete and browsing of the posts (filter/search). Forum contains other features such as login/logout and user management functionalities along with a messaging app.",
+        "stack": "",
+        "link": [
+            "Django",
+            "Python",
+            "MySQL",
+            "HTML/CSS",
+            "Heroku",
+            "Azure"
+        ],
+        "repo": "https://gitlab.com/RimDallali/python-project-2-academic_project"
+    },
+    {
+        "title": "Web Scraping and Data Science",
+        "date": "2022",
+        "description": "Interactive application scraping Covid-19 data from the web and storing it in a database. The data is then analyzed and compilated into graphs. User can choose to compare different countries of his choice.",
+        "stack": [
+            "Python",
+            "MySQL",
+            "Pandas",
+            "BeautifulSoup"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/RimDallali/python-project-1"
+    },
+    {
+        "title": "Contribution to music recording tracker",
+        "date": "2022",
+        "description": "An application keeps track of contributions to music recordings",
+        "stack": [
+            "PL/SQL, Java (JDBC)"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/RimDallali/database-project-01"
+    },
+    {
+        "title": "Exam Simulation",
+        "date": "2021",
+        "description": "An application allows the user to generate exam questions from a txt file and grade them, the program supports multiple students.",
+        "stack": [
+            "Java",
+            "JavaFX"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/RimDallali/java-project-1"
+    }
+]
