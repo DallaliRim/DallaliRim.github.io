@@ -28,7 +28,6 @@ function MyThree() {
     }, []);
     return (
         <div ref={refContainer}></div>
-
     );
 }
 

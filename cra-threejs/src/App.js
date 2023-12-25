@@ -1,12 +1,12 @@
 import './App.css';
-import MyThree from './Three';
+import MyThree from './components/home/Three';
+import NavBar from './components/home/navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <MyThree />
-      </header>
+      <NavBar />
+      <MyThree />
     </div>
   );
 }
