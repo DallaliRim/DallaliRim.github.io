@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 :root {
-    --accent-text-color: #00E676;
+    --accent-text-color: #ffb5b5;
 }
 
 html,
@@ -12,6 +12,7 @@ body {
     font-family: "Quicksand", sans-serif;
     font-size: 62.5%;
     font-size: 10px;
+    background-color: #1e222f;
 }
 
 /* Navbar section */
