@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "MonoCode";
+    src: local("MonoLight-VG7yz"),
+        url("../../fonts/monocode/MonoLight-VG7yz.ttf") format("truetype");
+}
+
+.Typewriter__wrapper {
+    font-size: 10em !important;
+    color: #ffffff !important;
+    font-weight: 500 !important;
+    font-family: MonoCode;
+}
+
+.Typewriter__cursor {
+    font-size: 10em !important;
+    color: #c3abcc !important;
+}
+
+@media (max-width: 767px) {
+    .Typewriter__wrapper {
+        font-size: 1.4em !important;
+        font-weight: 500 !important;
+        position: absolute !important;
+    }
+
+    .Typewriter__cursor {
+        display: none !important;
+    }
+}

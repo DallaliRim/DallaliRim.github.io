@@ -1,16 +1,16 @@
 import './App.css';
 import MyThree from './components/home/Three';
+import Type from './components/home/Type';
 import NavBar from './components/home/navbar';
-import ProjectPage from './components/projects/Projects';
 
 function App() {
   return (
     <div className="App">
       <NavBar classname="nav" />
       <section class="home">
+        <Type />
       </section>
-      <div Style="height: 1000px" className="AppContent">
-        <ProjectPage />
+      <div className="AppContent">
         <MyThree />
       </div>
     </div>
