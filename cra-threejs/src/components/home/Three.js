@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-
+import './Three.css';
 import { useEffect, useRef } from "react";
 
 function MyThree() {
