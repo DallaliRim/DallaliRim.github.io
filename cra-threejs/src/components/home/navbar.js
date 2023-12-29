@@ -37,10 +37,10 @@ function NavBar(props) {
                 </div>
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">
-                        <li><NavLink to="/about">About</NavLink></li>
-                        <li><NavLink to="./projects">Projects</NavLink></li>
-                        <li><NavLink to="./skills">Skills</NavLink></li>
-                        <li><NavLink to="./contact">Contact</NavLink></li>
+                        <li><NavLink className="navlink" to="/about">About</NavLink></li>
+                        <li><NavLink className="navlink" to="./projects">Projects</NavLink></li>
+                        <li><NavLink className="navlink" to="./skills">Skills</NavLink></li>
+                        <li><NavLink className="navlink" to="./contact">Contact</NavLink></li>
                     </ul>
                 </div>
             </div>
