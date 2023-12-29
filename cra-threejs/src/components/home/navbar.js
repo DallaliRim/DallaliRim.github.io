@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './navbar.css';
 import { SiDevdotto } from "react-icons/si";
 import { IoCodeSlashOutline } from "react-icons/io5";
+import { NavLink } from 'react-router-dom';
 
 function NavBar(props) {
     const [scrollTop, setScrollTop] = useState(50);
@@ -36,10 +37,10 @@ function NavBar(props) {
                 </div>
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">
-                        <li><a href="./">About</a></li>
-                        <li><a href="./">Projects</a></li>
-                        <li><a href="./">Skills</a></li>
-                        <li><a href="./">Contact</a></li>
+                        <li><NavLink to="/about">About</NavLink></li>
+                        <li><NavLink to="./projects">Projects</NavLink></li>
+                        <li><NavLink to="./skills">Skills</NavLink></li>
+                        <li><NavLink to="./contact">Contact</NavLink></li>
                     </ul>
                 </div>
             </div>
