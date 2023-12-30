@@ -13,7 +13,16 @@
             "Socket.io"
         ],
         "link": "https://themonke.azurewebsites.net/",
-        "repo": "https://gitlab.com/dawson2223/620-w23/s02/team4/monke"
+        "repo": "https://gitlab.com/dawson2223/620-w23/s02/team4/monke",
+        "images": [
+            "/images/monke/monke_home_page.png",
+            "/images/monke/monke_multiplayer_lobby.png",
+            "/images/monke/monke_multiplayer_game.png",
+            "/images/monke/monke_multiplayer_leaderboard.png",
+            "/images/monke/monke_global_leaderboard.png",
+            "/images/monke/monke_profile_page.png"
+        ],
+        "logo": "https://themonke.azurewebsites.net/static/media/logo-no-background.d5ef191a8016499ab5f5f330985c1de2.svg"
     },
     {
         "title": "PokeDaw",
@@ -24,7 +33,13 @@
             "Android Studio"
         ],
         "link": "",
-        "repo": "https://gitlab.com/Randoe/mobile-project-pokemon"
+        "repo": "https://gitlab.com/Randoe/mobile-project-pokemon",
+        "images": [
+            "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg",
+            "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg",
+            "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_640.jpg"
+        ],
+        "logo": ""
     },
     {
         "title": "Game Sales",
@@ -37,7 +52,12 @@
             "Render"
         ],
         "link": "",
-        "repo": "https://gitlab.com/dawson2223/section02/project/team10/520-project-dallali-ganz-vecchiarelli"
+        "repo": "https://gitlab.com/dawson2223/section02/project/team10/520-project-dallali-ganz-vecchiarelli",
+        "images": [
+            "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg",
+            "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_640.jpg"
+        ],
+        "logo": ""
     },
     {
         "title": "Robby The Robot",
@@ -49,7 +69,11 @@
             "Monogame"
         ],
         "link": "",
-        "repo": "https://gitlab.com/Dan_Willis/robbytherobot"
+        "repo": "https://gitlab.com/Dan_Willis/robbytherobot",
+        "images": [
+            "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_640.jpg"
+        ],
+        "logo": ""
     },
     {
         "title": "Smart Home",
@@ -65,7 +89,11 @@
             "Freenove Kit"
         ],
         "link": "",
-        "repo": "https://gitlab.com/matteorobidoux/mqttclientapp"
+        "repo": "https://gitlab.com/matteorobidoux/mqttclientapp",
+        "images": [
+            ""
+        ],
+        "logo": ""
     },
     {
         "title": "Piano Simulation",
@@ -77,7 +105,11 @@
             "Monogame"
         ],
         "link": "",
-        "repo": "https://gitlab.com/RimDallali/assignment-02-monogame-piano"
+        "repo": "https://gitlab.com/RimDallali/assignment-02-monogame-piano",
+        "images": [
+            ""
+        ],
+        "logo": ""
     },
     {
         "title": "E-Wallet",
@@ -90,14 +122,18 @@
             "Maven"
         ],
         "link": "",
-        "repo": "https://gitlab.com/RimDallali/java4-project-2-e-wallet-maven"
+        "repo": "https://gitlab.com/RimDallali/java4-project-2-e-wallet-maven",
+        "images": [
+            ""
+        ],
+        "logo": ""
     },
     {
         "title": "Forum Web Application",
         "date": "2022",
         "description": "Contributed to a team project by designing the database structure and implementing the post creation along with their features such as like, comment, edit, post, delete and browsing of the posts (filter/search). Forum contains other features such as login/logout and user management functionalities along with a messaging app.",
-        "stack": "",
-        "link": [
+        "link": "",
+        "stack": [
             "Django",
             "Python",
             "MySQL",
@@ -105,7 +141,11 @@
             "Heroku",
             "Azure"
         ],
-        "repo": "https://gitlab.com/RimDallali/python-project-2-academic_project"
+        "repo": "https://gitlab.com/RimDallali/python-project-2-academic_project",
+        "images": [
+            ""
+        ],
+        "logo": ""
     },
     {
         "title": "Web Scraping and Data Science",
@@ -118,17 +158,26 @@
             "BeautifulSoup"
         ],
         "link": "",
-        "repo": "https://gitlab.com/RimDallali/python-project-1"
+        "repo": "https://gitlab.com/RimDallali/python-project-1",
+        "images": [
+            ""
+        ],
+        "logo": ""
     },
     {
         "title": "Contribution to music recording tracker",
         "date": "2022",
         "description": "An application keeps track of contributions to music recordings",
         "stack": [
-            "PL/SQL, Java (JDBC)"
+            "PL/SQL",
+            "Java (JDBC)"
         ],
         "link": "",
-        "repo": "https://gitlab.com/RimDallali/database-project-01"
+        "repo": "https://gitlab.com/RimDallali/database-project-01",
+        "images": [
+            ""
+        ],
+        "logo": ""
     },
     {
         "title": "Exam Simulation",
@@ -139,6 +188,10 @@
             "JavaFX"
         ],
         "link": "",
-        "repo": "https://gitlab.com/RimDallali/java-project-1"
+        "repo": "https://gitlab.com/RimDallali/java-project-1",
+        "images": [
+            ""
+        ],
+        "logo": ""
     }
 ]

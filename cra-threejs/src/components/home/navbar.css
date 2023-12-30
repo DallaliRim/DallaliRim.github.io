@@ -20,7 +20,7 @@ body {
 /* Navbar section */
 
 .nav {
-    width: 100%;
+    width: 100vw;
     height: 65px;
     position: fixed;
     line-height: 65px;
@@ -58,6 +58,7 @@ body {
     width: auto;
     height: auto;
     padding-left: 3rem;
+    flex: 1;
 }
 
 .nav div.logo a {
@@ -73,6 +74,7 @@ body {
 .nav div.main_list {
     height: 65px;
     float: right;
+    flex: 1;
 }
 
 .nav div.main_list ul {
@@ -106,4 +108,8 @@ body {
     padding: 0;
     margin: 0;
     background-color: var(--background-color);
+}
+
+.spacer {
+    flex:6;
 }

@@ -19,12 +19,12 @@ body {
 }
 
 .projects {
-    width: 50%;
+    width: 80vw;
+    padding: 20rem 10rem 10rem 10rem;
 }
 
-.project-item {
-    list-style: none;
-    background-color: #ff80b3;
-    font-size: 1.3em;
-    border: 1px solid white;
+.project-image {
+    width:800px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
 }

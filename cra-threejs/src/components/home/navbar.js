@@ -35,6 +35,7 @@ function NavBar(props) {
                         <SiDevdotto id="logo-dev" className="logo-img" />
                     </a>
                 </div>
+                <div className="spacer" />
                 <div id="mainListDiv" className="main_list">
                     <ul className="navlinks">
                         <li><NavLink className="navlink" to="/about">About</NavLink></li>

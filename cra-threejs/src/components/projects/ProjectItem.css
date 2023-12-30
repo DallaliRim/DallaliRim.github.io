@@ -1,5 +1,14 @@
-.project-item-header {
-    border: 1px black solid;
+@font-face {
+    font-family: "MonoCode";
+    src: local("MonoLight-VG7yz"),
+        url("../../fonts/monocode/MonoLight-VG7yz.ttf") format("truetype");
+}
+.project-item {
+    width: max-content;
+    min-width: -webkit-fill-available;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,61 +16,55 @@
 
 .project-item-header-main {
     display: flex;
+    align-items: center;
+}
+
+.project-item-header-title {
+    color: #fff;
+    line-height: 65px;
+    font-size: 2.4rem;
 }
 
 .project-item-header-img {
-    width: 50px;
-    height: 50px;
+    width: 10rem;
+    height: 10rem;
+    padding-right:2rem;
 }
 
-/* BUTTON ANIMATION */
-button {
-    color: #ecf0f1;
-    background: #e74c3c;
-    width: 70px;
-    height: 70px;
-    position: relative;
-    font-size: 50px;
+.project-item-header:hover {
     cursor: pointer;
-    border: 0;
-    outline: 0;
-    padding: 0
 }
 
-.plus,
-.minus {
+.expand-project-btn {
+    width:2rem;
+    height:2rem;
+}
+
+/* PROJECT ITEM CONTENT */
+
+.project-item-content {
+    font-family: "MonoCode";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:2rem;
     color: #fff;
-    padding: 10px;
-    width: 70px;
-    height: 70px;
-    line-height: 50px;
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    text-align: center;
-    box-sizing: border-box;
-    transition: .5s all ease-out;
+    line-height: 65px;
+    font-size: 2.4rem;
 }
 
-.plus {
-    opacity: 1;
-    transform: rotate(0deg);
+.project-info-section {
+    text-align: -webkit-center;
 }
 
-button.active .plus {
-    opacity: 0;
-    transform: rotate(90deg);
+.project-images {
+    max-width: fit-content;
 }
 
-.minus {
-    opacity: 0;
-    transform: rotate(-90deg);
+.project-stack-section {
+    min-width: fit-content;
 }
 
-button.active .minus {
-    opacity: 1;
-    transform: rotate(0deg);
+.project-description {
+    margin-top: 10rem;
 }
