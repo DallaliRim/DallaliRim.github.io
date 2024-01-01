@@ -6,6 +6,7 @@
 .project-item {
     width: max-content;
     min-width: -webkit-fill-available;
+    min-width: -moz-available;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
@@ -55,6 +56,7 @@
 
 .project-info-section {
     text-align: -webkit-center;
+    text-align: -moz-center;
 }
 
 .project-images {
