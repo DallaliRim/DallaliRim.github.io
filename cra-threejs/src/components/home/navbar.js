@@ -9,7 +9,6 @@ function NavBar(props) {
     const [classname, setClassname] = useState("nav");
 
     useEffect(() => {
-        console.log(scrollTop);
         if (scrollTop > 50) {
             setClassname("nav affix");
         } else {

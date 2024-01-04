@@ -16,7 +16,7 @@ const ProjectItem = (projectItem, key) => {
         <>
             <div className="project-item" onClick={ToggleExpand}>
                 <div className="project-item-header-main">
-                    <img className="project-item-header-img" src={projectItem.project.logo || "https://cdn.pixabay.com/photo/2020/10/01/11/41/cat-5618328_1280.jpg"} alt={projectItem.project.title} />
+                    <img className="project-item-header-img" src={projectItem.project.logo || "cra-threejs/src/images/projects/monke/monke-home-page.png"} alt={projectItem.project.title} />
                     <h3 className="project-item-header-title">{projectItem.project.title}</h3>
                 </div>
                 <div>{expanded ? <FiMinus className="expand-project-btn" color="white" /> : <FiPlus className="expand-project-btn" color="white" />}</div>

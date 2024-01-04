@@ -1,14 +1,10 @@
 import projectsData from "../../data/projects.json"
 import ProjectItem from "./ProjectItem";
 import './Projects.css';
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 function ProjectPage() {
     const [projects] = useState(projectsData);
-
-    useEffect(() => {
-        console.log(projects);
-    }, [projects])
 
     return (
         <div className="projects">

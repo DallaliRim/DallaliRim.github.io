@@ -14,11 +14,6 @@
   color: white;
 }
 
-.home {
-  padding: 20rem 10rem 10rem 10rem;
-  align-items: start;
-}
-
 /* Scroll Bar */
 
 /* width */
@@ -91,6 +86,8 @@ body {
 /* Home section */
 
 .home {
+  padding: 20rem 10rem 10rem 10rem;
+  align-items: start;
   height: 100vh;
   background-position: center top;
   background-size: cover;

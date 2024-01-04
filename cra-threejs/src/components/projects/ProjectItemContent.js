@@ -2,9 +2,6 @@ import { ImageSlider } from './ImageSlider';
 import './ProjectItem.css'
 
 const ProjectItemContent = (projectItem, key) => {
-
-    console.log(projectItem)
-
     return (
         <div className="project-item-content">
             <div className="project-info-section">

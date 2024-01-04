@@ -5,7 +5,6 @@ function ProjectItemHeader(projectItem) {
 
     useEffect(() => {
         setProject(projectItem.project);
-        console.log(projectItem.project)
     }, [projectItem]);
 
     return (

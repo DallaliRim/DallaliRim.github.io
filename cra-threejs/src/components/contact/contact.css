@@ -1,0 +1,31 @@
+.contact {
+    padding: 20rem 10rem 10rem 10rem;
+    align-items: start;
+    height: 100vh;
+    background-position: center top;
+    background-size: cover;
+}
+
+.ContactContent {
+    color: white;
+    font-size: 5rem;
+    margin-top: 5rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    width: min-content;
+    color: white;
+}
+
+.social:hover {
+    color: #a57aa3;
+    cursor: pointer;
+}
+
+.social-logo {
+    padding-right: 1rem;
+}

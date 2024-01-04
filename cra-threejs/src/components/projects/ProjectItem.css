@@ -15,6 +15,10 @@
     justify-content: space-between;
 }
 
+.project-item:hover {
+    cursor: pointer;
+}
+
 .project-item-header-main {
     display: flex;
     align-items: center;
@@ -23,7 +27,8 @@
 .project-item-header-title {
     color: #fff;
     line-height: 65px;
-    font-size: 2.4rem;
+    font-size: 3rem;
+    font-weight: lighter;
 }
 
 .project-item-header-img {
@@ -61,7 +66,7 @@
 
 .project-images {
     max-width: fit-content;
-}
+} 
 
 .project-stack-section {
     min-width: fit-content;

@@ -3,13 +3,11 @@ import Typewriter from "typewriter-effect";
 import './Type.css';
 import '../../fonts/code7x5/Code7X5Regular-ypBe.ttf';
 
-function Type() {
+function Type(props) {
     return (
         <Typewriter
             options={{
-                strings: [
-                    "Hi, I am Rim Dallali, a Full-Stack Software Developer"
-                ],
+                strings: props.text,
                 autoStart: true,
                 loop: true,
                 deleteSpeed: 50,
