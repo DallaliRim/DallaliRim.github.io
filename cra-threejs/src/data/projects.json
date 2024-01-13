@@ -44,7 +44,7 @@
     {
         "title": "PokeDaw",
         "date": "2022",
-        "description": "Contributed to a team project consisting of a mock mobile application of the Pokemon game. The game includes features such as PokeCenter, Battle, TeamSwap, PC, etc.",
+        "description": "Mock mobile application of the Pokemon game. The game includes features such as PokeCenter, Battle, TeamSwap, PC, etc.",
         "stack": [
             "Kotlin",
             "Android Studio"
@@ -52,34 +52,18 @@
         "link": "",
         "repo": "https://gitlab.com/Randoe/mobile-project-pokemon",
         "images": [
-            "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg",
-            "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_1280.jpg",
-            "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_640.jpg"
+            "/images/pokedaw/pokedaw-battle.jpg",
+            "/images/pokedaw/pokedaw-start.jpg",
+            "/images/pokedaw/pokedaw-create.jpg",
+            "/images/pokedaw/pokedaw-menu.jpg",
+            "/images/pokedaw/pokedaw-pc.jpg"
         ],
-        "logo": ""
-    },
-    {
-        "title": "Game Sales",
-        "date": "2022",
-        "description": "Contributed to a team project consisting of a full-stack Mongo Express React Node (MERN) application with a focus on the visualization of a large dataset consisting of global game sales, as well as some of the performance considerations.",
-        "stack": [
-            "JavaScript",
-            "React",
-            "MongoDB",
-            "Render"
-        ],
-        "link": "",
-        "repo": "https://gitlab.com/dawson2223/section02/project/team10/520-project-dallali-ganz-vecchiarelli",
-        "images": [
-            "https://cdn.pixabay.com/photo/2014/11/30/14/11/cat-551554_1280.jpg",
-            "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_640.jpg"
-        ],
-        "logo": ""
+        "logo": "/images/pokedaw/pokedaw-logo.png"
     },
     {
         "title": "Robby The Robot",
         "date": "2022",
-        "description": "Contributed to a team project to create an adaptive learning genetic algorithm called Robby The Robot. Robby is meant to pick up coins on a grid, and only the best results are displayed. A console library provides an interface to start the algorithm work, evaluate Robby's intelligence/fitness, and output the results. A Monogame library is present with a GUI program that can visually display the results of the genetic algorithm's evolution of Robby the robot.",
+        "description": "Adaptive learning genetic algorithm called Robby The Robot. Robby is meant to pick up coins on a grid, and only the best results are displayed. A console library provides an interface to start the algorithm work, evaluate Robby's intelligence/fitness, and output the results. A Monogame library is present with a GUI program that can visually display the results of the genetic algorithm's evolution of Robby the robot.",
         "stack": [
             "C#",
             ".NET",
@@ -88,29 +72,11 @@
         "link": "",
         "repo": "https://gitlab.com/Dan_Willis/robbytherobot",
         "images": [
-            "https://cdn.pixabay.com/photo/2014/04/13/20/49/cat-323262_640.jpg"
+            "/images/robby/robby-begin.png",
+            "/images/robby/robby-end.png",
+            "/images/robby/robby-start.png"
         ],
-        "logo": ""
-    },
-    {
-        "title": "Smart Home",
-        "date": "2022",
-        "description": "Contributed to a team project that consists of MQTT clients connecting to the HiveMQ broker running on the HiveMQ cloud to publish and subscribe to messages related to the setup sensors (Motion detector, Doorbell, DHT sensors, and Camera). A GUI gets launched upon completing valid information (login) to display sensor data to and from all users running the program.",
-        "stack": [
-            "RaspberryPi",
-            "Java",
-            "Python",
-            "HiveMQ",
-            "JavaFX",
-            "Maven",
-            "Freenove Kit"
-        ],
-        "link": "",
-        "repo": "https://gitlab.com/matteorobidoux/mqttclientapp",
-        "images": [
-            ""
-        ],
-        "logo": ""
+        "logo": "/images/robby/robby-logo.png"
     },
     {
         "title": "Piano Simulation",
@@ -124,9 +90,65 @@
         "link": "",
         "repo": "https://gitlab.com/RimDallali/assignment-02-monogame-piano",
         "images": [
-            ""
+            "/images/piano/piano-start.png",
+            "/images/piano/piano-play.png"
         ],
-        "logo": ""
+        "logo": "/images/piano/piano-logo.png"
+    },
+    {
+        "title": "Smart Home",
+        "date": "2022",
+        "description": "Smart Home proof of concept. MQTT clients connecting to the HiveMQ broker running on the HiveMQ cloud to publish and subscribe to messages related to the setup sensors (Motion detector, Doorbell, DHT sensors, and Camera). A GUI gets launched upon completing valid information (login) to display sensor data to and from all users running the program.",
+        "stack": [
+            "RaspberryPi",
+            "Java",
+            "Python",
+            "HiveMQ",
+            "JavaFX",
+            "Maven",
+            "Freenove Kit"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/matteorobidoux/mqttclientapp",
+        "images": [
+            "/images/smart-home/smart-real-board.jpg",
+            "/images/smart-home/smart-setup.jpg"
+        ],
+        "logo": "/images/smart-home/smart-logo.png"
+    },
+    {
+        "title": "Web Scraping and Data Science",
+        "date": "2022",
+        "description": "Interactive application scraping Covid-19 data from the web and storing it in a database. The data is then analyzed and compilated into graphs. User can choose to compare different countries of his choice.",
+        "stack": [
+            "Python",
+            "MySQL",
+            "Pandas",
+            "BeautifulSoup"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/RimDallali/python-project-1",
+        "images": [
+            "/images/data-science/data-figure2.png"
+        ],
+        "logo": "/images/data-science/data-logo.png"
+    },
+    {
+        "title": "Game Sales",
+        "date": "2022",
+        "description": "Full-stack Mongo Express React Node (MERN) application with a focus on the visualization of a large dataset consisting of global game sales, as well as some of the performance considerations.",
+        "stack": [
+            "JavaScript",
+            "React",
+            "MongoDB",
+            "Render"
+        ],
+        "link": "",
+        "repo": "https://gitlab.com/dawson2223/section02/project/team10/520-project-dallali-ganz-vecchiarelli",
+        "images": [
+            "/images/no-image.png"
+        ],
+        "logo": "/images/no-image.png"
     },
     {
         "title": "E-Wallet",
@@ -141,9 +163,9 @@
         "link": "",
         "repo": "https://gitlab.com/RimDallali/java4-project-2-e-wallet-maven",
         "images": [
-            ""
+            "/images/no-image.png"
         ],
-        "logo": ""
+        "logo": "/images/no-image.png"
     },
     {
         "title": "Forum Web Application",
@@ -160,26 +182,9 @@
         ],
         "repo": "https://gitlab.com/RimDallali/python-project-2-academic_project",
         "images": [
-            ""
+            "/images/no-image.png"
         ],
-        "logo": ""
-    },
-    {
-        "title": "Web Scraping and Data Science",
-        "date": "2022",
-        "description": "Interactive application scraping Covid-19 data from the web and storing it in a database. The data is then analyzed and compilated into graphs. User can choose to compare different countries of his choice.",
-        "stack": [
-            "Python",
-            "MySQL",
-            "Pandas",
-            "BeautifulSoup"
-        ],
-        "link": "",
-        "repo": "https://gitlab.com/RimDallali/python-project-1",
-        "images": [
-            ""
-        ],
-        "logo": ""
+        "logo": "/images/no-image.png"
     },
     {
         "title": "Contribution to music recording tracker",
@@ -192,23 +197,8 @@
         "link": "",
         "repo": "https://gitlab.com/RimDallali/database-project-01",
         "images": [
-            ""
+            "/images/no-image.png"
         ],
-        "logo": ""
-    },
-    {
-        "title": "Exam Simulation",
-        "date": "2021",
-        "description": "An application allows the user to generate exam questions from a txt file and grade them, the program supports multiple students.",
-        "stack": [
-            "Java",
-            "JavaFX"
-        ],
-        "link": "",
-        "repo": "https://gitlab.com/RimDallali/java-project-1",
-        "images": [
-            ""
-        ],
-        "logo": ""
+        "logo": "/images/no-image.png"
     }
 ]

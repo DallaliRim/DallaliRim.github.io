@@ -15,17 +15,14 @@ function ContactPage() {
                             <SiLinkedin className="social-logo" />
                             <p> LinkedIn </p>
                         </a>
-                        <a className="social" href="/contact">
+                        <a className="social" href="https://github.com/DallaliRim">
                             <SiGithub className="social-logo" />
                             <p> GitHub </p>
                         </a>
-                        <a className="social" href="/contact">
+                        <a className="social" href="https://gitlab.com/RimDallali">
                             <FiGitlab className="social-logo" />
                             <p> GitLab </p>
                         </a>
-                    </div>
-                    <div className="contact-form">
-                        <input></input>
                     </div>
                 </div>
 

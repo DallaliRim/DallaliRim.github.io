@@ -28,10 +28,10 @@ const ProjectItem = (projectItem, key) => {
                         <SiGithub className="social-logo" />
                         Visit the Repo
                     </a>
-                    <a className="site-link" href={projectItem.project.link}>
+                    {projectItem.project.link && <a className="site-link" href={projectItem.project.link}>
                         <FiMousePointer className="social-logo" />
                         Take a look at the project
-                    </a>
+                    </a>}
                 </div>
             </div>
             {expanded && <ProjectItemContent projectItem={projectItem.project} key={key} />}

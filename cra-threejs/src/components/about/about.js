@@ -1,6 +1,12 @@
+import Type from "../home/Type";
+import "./about.css";
+
 function AboutPage() {
+    let construction = "This page is still under construction."
     return (
-        <p>ABOUT PAGE</p>
+        <div className="about">
+            <Type text={construction} />
+        </div>
     );
 }
 
