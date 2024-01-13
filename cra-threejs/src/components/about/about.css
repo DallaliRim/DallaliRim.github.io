@@ -4,4 +4,14 @@
     height: 100vh;
     background-position: center top;
     background-size: cover;
+    display: flex;
+    flex-direction:row;
+}
+
+.avatar-holder {
+    border-radius: 300px;
+    background: #1e222f;
+    box-shadow: 18px 18px 35px #13151e,
+        -18px -18px 35px #292f40;
+    margin-right:5rem;
 }
