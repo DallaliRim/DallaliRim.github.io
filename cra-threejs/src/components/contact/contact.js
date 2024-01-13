@@ -25,7 +25,7 @@ function ContactPage() {
                         </a>
                     </div>
                     <div className="contact-form">
-
+                        <input></input>
                     </div>
                 </div>
 

@@ -13,7 +13,7 @@ const ProjectItemContent = (projectItem, key) => {
                 </div>
             </div>
             <div className="project-stack-section">
-                <p Style="text-align-last:center; margin:0;"> STACK </p>
+                <p> STACK </p>
                 {projectItem.projectItem.stack.map((item, key) => {
                     return <li key={key}> {item} </li>
                 })}

@@ -13,11 +13,6 @@
     cursor: pointer;
 }
 
-body {
-    background-image: url("https://i.cdn.turner.com/nba/nba/.element/img/1.0/teamsites/logos/teamlogos_500x500/gsw.png");
-    background-size: cover;
-}
-
 .projects {
     width: 80vw;
     padding: 20rem 10rem 10rem 10rem;

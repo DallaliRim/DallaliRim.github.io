@@ -7,9 +7,6 @@
     width: max-content;
     min-width: -webkit-fill-available;
     min-width: -moz-available;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    padding: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,7 +18,15 @@
 
 .project-item-header-main {
     display: flex;
+    flex-direction: row;
     align-items: center;
+}
+
+.project-item-header-general {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .project-item-header-title {
@@ -33,8 +38,8 @@
 
 .project-item-header-img {
     width: 25rem;
-    height: 15rem;
-    padding-right:2rem;
+    height: 10rem;
+    padding-right:5rem;
 }
 
 .project-item-header:hover {
@@ -44,6 +49,16 @@
 .expand-project-btn {
     width:2rem;
     height:2rem;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.project-links a:hover {
+    text-decoration: none;
+    color: #ffb5b5;
 }
 
 /* PROJECT ITEM CONTENT */
@@ -74,4 +89,28 @@
 
 .project-description {
     margin-top: 10rem;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width:50%;
+    font-size: 2rem;
+}
+
+.project-links :hover {
+    color: white;
+    cursor: pointer;
+}
+
+.temp-holder {
+    margin-bottom:3rem;
+    border-radius: 8px;
+    background: #1e222f;
+    box-shadow: 5px 5px 10px #151821,
+        -5px -5px 10px #272c3d;
+    padding: 2rem;
 }

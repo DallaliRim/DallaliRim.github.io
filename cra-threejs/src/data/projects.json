@@ -1,8 +1,25 @@
 [
     {
+        "title": "Cheese Chase",
+        "date": "2023",
+        "description": "A coop rythm game where you and your partner play as mice conducting a heist. The goal is to steal as much cheese from the bank as possible and bring it back to your van. Don't get caught by the police!",
+        "stack": [
+            "C#",
+            "Unity"
+        ],
+        "link": "https://nenikitov.itch.io/cheese-chase",
+        "repo": "https://github.com/DallaliRim/GameJam2023.git",
+        "images": [
+            "/images/cheese-chase/cheese-chase-game.png",
+            "/images/cheese-chase/cheese-chase-start.png",
+            "/images/cheese-chase/cheese-chase-logo.png"
+        ],
+        "logo": "/images/cheese-chase/cheese-chase-logo.png"
+    },
+    {
         "title": "Monke",
         "date": "2023",
-        "description": "Contributed to a team project consisting of creating an engaging typing game. Allows you to test your skills using a variety of settings and stats and have them be available for browsing to logged-in users. Includes a Multiplayer feature that allows you to compete with friends.",
+        "description": "Engaging typing game to play by yourself or to compete between friends. Allows you to test your skills using a variety of settings and stats and have them be available for browsing to logged-in users. Includes a Multiplayer feature that allows you to compete with friends in real time.",
         "stack": [
             "JavaScript",
             "React",
@@ -22,7 +39,7 @@
             "/images/monke/monke_global_leaderboard.png",
             "/images/monke/monke_profile_page.png"
         ],
-        "logo": "https://themonke.azurewebsites.net/static/media/logo-no-background.d5ef191a8016499ab5f5f330985c1de2.svg"
+        "logo": "/images/monke/monke-logo.svg"
     },
     {
         "title": "PokeDaw",
