@@ -1,17 +1,26 @@
-.heading {
-    color: #FFF5C3;
+:root {
+    --primary-color: #732b3d;
+    --text-color: #320606;
+    --background-color: #c6b3b3;
+    --accent-color: #c5808a;
+    --secondary-color: #976572;
+    --shadow-color: #744551de;
 }
 
-.description {
+/* .heading {
+    color: #3215d8;
+} */
+
+/* .description {
     display: none;
     background-color: #ffffff;
     color: #505050;
-}
+} */
 
-.heading :hover {
+/* .heading :hover {
     color: white;
     cursor: pointer;
-}
+} */
 
 .projects {
     width: 80vw;
@@ -22,4 +31,121 @@
     width:800px;
     aspect-ratio: 3/2;
     object-fit: contain;
+}
+
+@font-face {
+    font-family: "MonoCode";
+    src: local("MonoLight-VG7yz"),
+        url("../../fonts/monocode/MonoLight-VG7yz.ttf") format("truetype");
+}
+
+.project-item {
+    width: max-content;
+    min-width: -webkit-fill-available;
+    min-width: -moz-available;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project-item-header-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.project-item-header-general {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-item-header-title {
+    color: #fff;
+    line-height: 65px;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+.project-item-header-img {
+    width: 20rem;
+    height: 10rem;
+    padding-right: 5rem;
+}
+
+.project-item-header:hover {
+    cursor: pointer;
+}
+
+.expand-project-btn {
+    width: 2rem;
+    height: 2rem;
+}
+
+.project-links a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+/* PROJECT ITEM CONTENT */
+
+.project-item-content {
+    font-family: "MonoCode";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    color: var(--text-color);
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.project-info-section {
+    text-align: -webkit-center;
+    text-align: -moz-center;
+}
+
+.project-images {
+    max-width: fit-content;
+}
+
+.project-stack-section {
+    min-width: fit-content;
+}
+
+.project-description {
+    margin-top: 10rem;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
+}
+
+.project-links a:hover {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+.project-item:hover {
+    cursor: pointer;
+}
+
+.project-links :hover {
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+.temp-holder {
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    background: var(--secondary-color);
+    box-shadow: 5px 5px 10px var(--shadow-color),
+        -5px -5px 10px var(--shadow-color);
+    padding: 2rem;
 }

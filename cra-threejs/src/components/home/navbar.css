@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
 :root {
-    --accent-text-color: #ffb5b5;
-    --background-color: #1e222f;
+    --accent-text-color: #732b3d;
+    --text-color: #320606;
+    --background-color: #c6b3b3;
 }
 
 html,
@@ -28,11 +29,7 @@ body {
 }
 
 .nav .logo a .logo-img {
-    color:white;
-}
-
-.nav .logo a:hover .logo-img {
-    color: var(--accent-text-color);
+    color:var(--text-color);
 }
 
 .nav .logo a {
@@ -63,12 +60,8 @@ body {
 
 .nav div.logo a {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
     font-size: 2.5rem;
-}
-
-.nav div.logo a:hover {
-    color: var(--accent-text-color);
 }
 
 .nav div.main_list {
@@ -95,12 +88,14 @@ body {
 
 .nav div.main_list ul li .navlink {
     text-decoration: none;
-    color: #fff;
+    color: var(--text-color);
     line-height: 65px;
     font-size: 2.4rem;
 }
 
-.nav div.main_list ul li .navlink:hover {
+.nav div.main_list ul li .navlink:hover, 
+.nav div.logo a:hover,
+.nav .logo a:hover .logo-img {
     color: var(--accent-text-color);
 }
 

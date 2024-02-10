@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { FiPlus, FiMinus, FiMousePointer } from "react-icons/fi";
-import './ProjectItem.css'
 import ProjectItemContent from "./ProjectItemContent";
 import { SiGithub } from "react-icons/si";
 

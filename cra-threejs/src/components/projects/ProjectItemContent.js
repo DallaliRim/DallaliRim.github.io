@@ -1,5 +1,4 @@
 import { ImageSlider } from './ImageSlider';
-import './ProjectItem.css'
 
 const ProjectItemContent = (projectItem, key) => {
     return (

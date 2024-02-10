@@ -6,14 +6,14 @@
 
 .Typewriter__wrapper {
     font-size: 10em !important;
-    color: #ffffff !important;
+    color: #491414 !important;
     font-weight: 500 !important;
     font-family: MonoCode;
 }
 
 .Typewriter__cursor {
     font-size: 10em !important;
-    color: #c3abcc !important;
+    color: #320606 !important;
 }
 
 @media (max-width: 767px) {
