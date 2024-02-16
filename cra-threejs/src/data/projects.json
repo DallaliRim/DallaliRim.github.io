@@ -21,13 +21,11 @@
         "date": "2023",
         "description": "Engaging typing game to play by yourself or to compete between friends. Allows you to test your skills using a variety of settings and stats and have them be available for browsing to logged-in users. Includes a Multiplayer feature that allows you to compete with friends in real time.",
         "stack": [
-            "JavaScript",
-            "React",
+            "React JS",
             "Azure",
             "C#",
             "Rust",
-            "MongoDB",
-            "Socket.io"
+            "MongoDB"
         ],
         "link": "https://themonke.azurewebsites.net/",
         "repo": "https://gitlab.com/dawson2223/620-w23/s02/team4/monke",
